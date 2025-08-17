@@ -57,13 +57,4 @@ function nav_link($href, $label) {
 </header>
 
 <main class="container">
-  <section class="page-header">
-    <h1 class="page-title">Tableau de supervision</h1>
-    <div class="legend">
-      <span class="badge ok">OK</span>
-      <span class="badge warn">WARN</span>
-      <span class="badge crit">CRIT</span>
-      <span class="badge unknown">UNKNOWN</span>
-    </div>
-  </section>
   <section class="content">

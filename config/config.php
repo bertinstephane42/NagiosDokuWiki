@@ -7,7 +7,7 @@ return [
     'dokuwiki_path' => realpath(__DIR__ . '/../..') . '/bts_sio',
 
     // URL publique de DokuWiki pour test HTTP (ajustez selon votre domaine)
-    // Exemple: https://www.cours-reseaux.fr/bts_sio/doku.php
+    // Exemple: https://www.example.com/doku.php
     'dokuwiki_url'  => (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
         . ($_SERVER['HTTP_HOST'] ?? 'www.cours-reseaux.fr')
         . dirname(dirname($_SERVER['SCRIPT_NAME'] ?? '/nagios/public/index.php'))

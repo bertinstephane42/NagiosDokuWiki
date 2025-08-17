@@ -1,0 +1,3 @@
+# Bloque tout accès web direct
+Order deny,allow
+Deny from all
